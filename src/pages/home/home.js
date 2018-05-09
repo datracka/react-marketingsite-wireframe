@@ -9,7 +9,7 @@ import Footer from "components/footer";
 import "./home.css";
 
 const Home = () => (
-  <div className="flex flex-wrap">
+  <div className="w-full h-auto flex flex-wrap">
     <NavBar />
     <Hero title="Seeing for Ourselves" text="lorem ipsum" />
     <FeaturedProduct topHeadline="" title="" text="" />

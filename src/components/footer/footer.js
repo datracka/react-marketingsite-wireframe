@@ -6,7 +6,11 @@ const Wrapper = styled.div`
   background-color: red;
 `;
 
-const Footer = () => <div className="footer">footer</div>;
+const Footer = () => (
+  <div className="flex justify-center align-center w-full h-10 bg-grey">
+    footer
+  </div>
+);
 
 export default styled(Footer)`
   background-color: red;

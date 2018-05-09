@@ -1,10 +1,8 @@
 import React from "react";
 import "./hero.css";
 
-// https://github.com/gary149/hyperapp-tailwind-parcel
-
 const Hero = () => (
-  <section className="hero">
+  <section className="flex justify-center align-center w-full h-48 bg-grey-light">
     <h1>Greetings.</h1>
   </section>
 );

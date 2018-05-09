@@ -19,17 +19,15 @@ injectGlobal`
 `;
 const App = () => (
   <Router>
-    <div>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/products" component={Products} />
-        <Route path="/learn" component={Learn} />
-        <Route path="/data" component={Data} />
-        <Route path="/connect" component={Connect} />
-        <Route component={PageNotFound} />
-      </Switch>
-    </div>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/products" component={Products} />
+      <Route path="/learn" component={Learn} />
+      <Route path="/data" component={Data} />
+      <Route path="/connect" component={Connect} />
+      <Route component={PageNotFound} />
+    </Switch>
   </Router>
 );
 
@@ -37,6 +35,5 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 // Hot Module Replacement
 if (module.hot) {
-  console.log("aaa", module.hot);
   module.hot.accept();
 }

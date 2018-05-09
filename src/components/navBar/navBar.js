@@ -4,8 +4,10 @@ import "./navbar.css";
 
 const Navbar = props => {
   return (
-    <section className="navBar">
-      <nav>
+    <header className="flex flex-col w-full">
+      <span>Citizen window</span>
+      <div className="block absolute self-end">X</div>
+      <nav className="flex justify-center align-center w-full h-48 bg-green-light sm:hidden md:flex">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/products">Products</Link>
@@ -13,7 +15,7 @@ const Navbar = props => {
         <Link to="/data">Data</Link>
         <Link to="/connect">Connect</Link>
       </nav>
-    </section>
+    </header>
   );
 };
 
