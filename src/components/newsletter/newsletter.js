@@ -1,5 +1,6 @@
 import React from "react";
+import "./newsletter.css";
 
-const Newsletter = () => <div>newsletter!</div>;
+const Newsletter = () => <section className="newsletter">newsletter!</section>;
 
 export default Newsletter;

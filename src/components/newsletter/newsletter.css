@@ -1,11 +1,11 @@
 @tailwind preflight;
 @tailwind utilities;
 
-.navBar {
+.newsletter {
   width: 100%;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5995da;
-  height: 80px;
+  background-color: #f5cf8e;
 }
