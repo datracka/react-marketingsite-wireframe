@@ -2,7 +2,7 @@
 @tailwind utilities;
 
 /* test css */
-.foo {
+.bar {
   background: blue;
   & .bar {
     background-color: red;

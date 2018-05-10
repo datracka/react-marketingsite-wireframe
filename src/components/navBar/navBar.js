@@ -6,7 +6,7 @@ const Navbar = props => {
   return (
     <header className="flex flex-col w-full">
       <span>Citizen window</span>
-      <div className="block absolute self-end">X</div>
+      <div className="icon-menu block absolute self-end" />
       <nav className="flex justify-center align-center w-full h-48 bg-green-light sm:hidden md:flex">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

@@ -8,15 +8,7 @@ import Learn from "pages/learn";
 import Data from "pages/data";
 import Connect from "pages/connect";
 import PageNotFound from "pages/page-not-found";
-import { injectGlobal } from "styled-components";
 
-injectGlobal`
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-`;
 const App = () => (
   <Router>
     <Switch>

@@ -1,5 +1,9 @@
-/* @import "./fonts.css"; */
+@import "./fonts.css";
 
 @tailwind preflight;
 @tailwind components;
 @tailwind utilities;
+
+.foo {
+  border: 10px solid red;
+}
